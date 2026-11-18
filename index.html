@@ -186,7 +186,7 @@ This typically indicates that your device does not have a healthy Internet conne
   </tr></table>
   <h1>\u0110\u1EC0 NGH\u1ECA TI\u1EBEP KH\xC1CH</h1>
   <div style="font-size:12px;line-height:1.7;margin-top:6px">
-    <div><b>K\xEDnh g\u1EEDi:</b> Ban Gi\xE1m \u0111\u1ED1c C\xF4ng ty</div>
+    <div><b>K\xEDnh g\u1EEDi:</b> Ban L\xE3nh \u0111\u1EA1o C\xF4ng ty</div>
     <div><b>Ng\u01B0\u1EDDi \u0111\u1EC1 ngh\u1ECB:</b> ${r?.hoTen||""} &nbsp;&nbsp; <b>Ph\xF2ng/B\u1ED9 ph\u1EADn:</b> ${r?.phongBan||""}</div>
     <div style="margin-top:4px"><b>1. Ng\xE0y ti\u1EBFp kh\xE1ch:</b> ${dr(t.ngay)}</div>
     <div style="margin-top:4px"><b>2. Danh s\xE1ch tham gia d\u1EF1 ki\u1EBFn</b></div>
@@ -202,7 +202,7 @@ This typically indicates that your device does not have a healthy Internet conne
     <div style="margin-top:4px"><b>4. \u0110\u1ECBa \u0111i\u1EC3m d\u1EF1 ki\u1EBFn:</b> ${t.diaChi||t.nccTen||""}${t.diaChi&&t.nccTen?` (C\xF4ng ty/HKD: ${t.nccTen})`:""}</div>
     <div style="margin-top:4px"><b>5. Chi ph\xED d\u1EF1 ki\u1EBFn/ng\u01B0\u1EDDi:</b> ${n.amount==null?"Theo th\u1EF1c t\u1EBF ph\xE1t sinh":t.soNguoi?Dt(Math.round(n.amount/t.soNguoi))+" \u0111":"................"}</div>
     <div style="margin-top:4px"><b>6. T\u1ED5ng chi ph\xED d\u1EF1 ki\u1EBFn:</b> ${n.amount==null?GN:`${Dt(n.amount)} \u0111 (B\u1EB1ng ch\u1EEF: ${I0(n.amount)}./.)`}</div>
-    <div style="margin-top:6px">K\xEDnh tr\xECnh Ban Gi\xE1m \u0111\u1ED1c xem x\xE9t v\xE0 ch\u1EA5p thu\u1EADn \u0110\u1EC1 ngh\u1ECB tr\xEAn.</div>
+    <div style="margin-top:6px">K\xEDnh tr\xECnh Ban L\xE3nh \u0111\u1EA1o xem x\xE9t v\xE0 ch\u1EA5p thu\u1EADn \u0110\u1EC1 ngh\u1ECB tr\xEAn.</div>
   </div>
   <table class="sign" style="margin-top:22px"><tr>
     <td style="width:50%"><b>Ng\u01B0\u1EDDi \u0111\u1EC1 ngh\u1ECB</b><br><i>(K\xFD v\xE0 ghi r\xF5 h\u1ECD t\xEAn)</i><div class="sign-space"></div>${r?.hoTen||""}</td>
@@ -219,7 +219,7 @@ This typically indicates that your device does not have a healthy Internet conne
   ${n?"":'<div style="margin:6px 0;padding:6px 10px;background:#fef3c7;color:#92400e;font-size:11px;border-radius:6px">\u26A0 C\xE1c h\u1ED3 s\u01A1 g\u1ED9p kh\xF4ng c\xF9ng ng\xE0y \u2014 vui l\xF2ng ki\u1EC3m tra l\u1EA1i tr\u01B0\u1EDBc khi tr\xECnh k\xFD.</div>'}
   ${s?"":'<div style="margin:6px 0;padding:6px 10px;background:#fef3c7;color:#92400e;font-size:11px;border-radius:6px">\u26A0 C\xE1c h\u1ED3 s\u01A1 g\u1ED9p thu\u1ED9c nhi\u1EC1u ng\u01B0\u1EDDi \u0111\u1EE9ng t\xEAn kh\xE1c nhau \u2014 ch\u1EE9ng t\u1EEB \u0111ang ghi ng\u01B0\u1EDDi \u0111\u1EC1 ngh\u1ECB l\xE0 ng\u01B0\u1EDDi c\u1EE7a h\u1ED3 s\u01A1 \u0111\u1EA7u ti\xEAn, ki\u1EC3m tra l\u1EA1i tr\u01B0\u1EDBc khi tr\xECnh k\xFD.</div>'}
   <div style="font-size:12px;line-height:1.7;margin-top:6px">
-    <div><b>K\xEDnh g\u1EEDi:</b> Ban Gi\xE1m \u0111\u1ED1c C\xF4ng ty</div>
+    <div><b>K\xEDnh g\u1EEDi:</b> Ban L\xE3nh \u0111\u1EA1o C\xF4ng ty</div>
     <div><b>Ng\u01B0\u1EDDi \u0111\u1EC1 ngh\u1ECB:</b> ${a?.hoTen||""} &nbsp;&nbsp; <b>Ph\xF2ng/B\u1ED9 ph\u1EADn:</b> ${a?.phongBan||""}</div>
     <div style="margin-top:4px"><b>1. Ng\xE0y ti\u1EBFp kh\xE1ch:</b> ${dr(r.ngay)}${n?"":" (nhi\u1EC1u ng\xE0y, xem c\u1ED9t Ghi ch\xFA)"}</div>
     <div style="margin-top:4px"><b>2. Danh s\xE1ch tham gia d\u1EF1 ki\u1EBFn</b></div>
@@ -235,7 +235,7 @@ This typically indicates that your device does not have a healthy Internet conne
     <div style="margin-top:4px"><b>4. \u0110\u1ECBa \u0111i\u1EC3m d\u1EF1 ki\u1EBFn:</b> xem chi ti\u1EBFt theo t\u1EEBng h\u1ED3 s\u01A1 \u0111\xEDnh k\xE8m</div>
     <div style="margin-top:4px"><b>5. Chi ph\xED d\u1EF1 ki\u1EBFn/ng\u01B0\u1EDDi:</b> ${o?"Theo th\u1EF1c t\u1EBF ph\xE1t sinh":u?Dt(Math.round(l/u))+" \u0111":"................"}</div>
     <div style="margin-top:4px"><b>6. T\u1ED5ng chi ph\xED d\u1EF1 ki\u1EBFn:</b> ${o?GN:`${Dt(l)} \u0111 (B\u1EB1ng ch\u1EEF: ${I0(l)}./.)`}</div>
-    <div style="margin-top:6px">K\xEDnh tr\xECnh Ban Gi\xE1m \u0111\u1ED1c xem x\xE9t v\xE0 ch\u1EA5p thu\u1EADn \u0110\u1EC1 ngh\u1ECB tr\xEAn.</div>
+    <div style="margin-top:6px">K\xEDnh tr\xECnh Ban L\xE3nh \u0111\u1EA1o xem x\xE9t v\xE0 ch\u1EA5p thu\u1EADn \u0110\u1EC1 ngh\u1ECB tr\xEAn.</div>
   </div>
   <table class="sign" style="margin-top:22px"><tr>
     <td style="width:50%"><b>Ng\u01B0\u1EDDi \u0111\u1EC1 ngh\u1ECB</b><br><i>(K\xFD v\xE0 ghi r\xF5 h\u1ECD t\xEAn)</i><div class="sign-space"></div>${a?.hoTen||""}</td>
@@ -259,7 +259,7 @@ This typically indicates that your device does not have a healthy Internet conne
   @media print{body{padding:0}.warn{display:none}}
 </style>`,zs=t=>t?"\u2611":"\u2610";function MN(t){return`<table class="n"><tr>
     <td style="width:120px"><img src="${II}" width="110" height="68" alt="KOVA"></td>
-    <td style="vertical-align:middle;font-weight:700;font-size:13pt;line-height:1.25">C\xD4NG TY TNHH TH\u01AF\u01A0NG M\u1EA0I<br>&amp; D\u1ECACH V\u1EE4 KOVA</td>
+    <td style="vertical-align:middle;font-weight:700;font-size:11pt;line-height:1.25">C\xD4NG TY TNHH TH\u01AF\u01A0NG M\u1EA0I<br>&amp; D\u1ECACH V\u1EE4 KOVA</td>
     <td style="text-align:right;vertical-align:top;width:210px;font-size:10.5pt">${t}</td>
   </tr></table>`}function _N(t,e){let r=e.holderById(t.holderId),a=t.items&&t.items.length?t.items:[{ten:t.lyDo||t.loaiChiPhi||"",quyCach:"",sl:1,dvt:"",donGia:""}],n=t.nguonNganSach||"Ng\xE2n s\xE1ch b\u1ED9 ph\u1EADn",s=t.loaiHH||"H\xE0ng h\xF3a",i=[t.nccTen?`NCC: ${t.nccTen}${t.nccMST?" (MST "+t.nccMST+")":""}`:"",t.soHD?`H\u0110 s\u1ED1 ${t.soHD}, ng\xE0y ${dr(t.ngay)}`:"",t.ghiChu||""].filter(Boolean).join("; "),o=a.map((l,u)=>{let c=Number(l.sl)||0,d=Number(l.donGia)||0;return`<tr>
       <td style="text-align:center">${u+1}</td>
